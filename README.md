@@ -1,6 +1,6 @@
 # Nez-Samples
 
-Samples and demos of various [Nez](https://github.com/prime31/Nez) features. The Samples repo is built against MonoGame 3.7 + 3.8 + FNA.
+Samples and demos of various [Nez](https://github.com/prime31/Nez) features. The Samples repo is built against MonoGame 3.8 + FNA.
 
 
 Setup
@@ -8,8 +8,6 @@ Setup
 - Pull a fresh copy of the Nez-Samples repository. The samples repository has the base Nez repository as a submodule so to fully download everything you need add the `--recursive` parameter when cloning:
 
 `git clone --recursive https://github.com/prime31/Nez-Samples.git`
-
-- now you can open the `Nez.MG37.Samples.sln` (for MonoGame 3.7) or the `Nez.MG38.Samples.sln` (for MonoGame 3.8 and NET Core 3) or the `Nez.MG38.NET6.Samples.sln` (for MonoGame 3.8 and NET 6) and run the project (for NET Core 3+ you can also run with the command `dotnet run --project Nez.MG38.Samples.csproj`)
 
 
 Sample Scenes
